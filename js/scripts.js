@@ -1,4 +1,4 @@
-(document).ready(function() {
+$(document).ready(function() {
   $("#formOne").submit(function() {
     const person1Input = $("input#person1").val();
     const person2Input = $("input#person2").val();
@@ -14,6 +14,6 @@
     $(".verb").text(verbInput);
     $(".noun").text(nounInput);
 
-    $("#story").sho();
+    $("#story").show();
   });
 });
